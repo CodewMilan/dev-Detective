@@ -9,18 +9,20 @@
         @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
         </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />                
-        
+    
+
+ 
 </head>
-<body>
+<body class="">
 <div class="wrapper m-0 p-0 box-border relative">
 
     <!--Header and dark mode-->
     <div class="header flex justify-center items-baseline h-screen w-screen pt-[250px]">
-        <div class="heading pr-[500px]">
-            DevDetetective
+        <div class="heading pr-[500px] text-2xl font-bold text-[#5b748d]">
+            DevDetective
             
         </div>
-        <div class="mode flex flex-row items-center gap-6">
+        <div class="mode flex flex-row items-center gap-6 text-[#5b748d] font-bold text-[20px]">
             <p Mode>DARK</p>
             <i class="fa-solid fa-moon"></i>
         </div>
@@ -32,19 +34,63 @@
       <!--searchbox-->
     
         <div class="search flex justify-center">
-            <form action="#" class="absolute bottom-[600px]">
+            
+            
+            <form action="#" class="absolute bottom-[710px] ">
                 
                 <button>
                     <i class="fa fa-search"></i>
                 </button>
-                <input type="text" placeholder="Search Courses"
-                       name="search">
-
-                <button class="pl-[420px]">
+            
+        
+                <input type="text" placeholder="Enter a Github Username..."
+                       name="search" size="50" >
+                <button class="pl-[80px]">
                     Search
                 </button>
 
             </form>
+        
+        
+        </div>
+
+        <!--developer info-->
+        <div class="devinfo flex justify-center">
+            <div class="pinfo flex flex-row items-center gap-6">
+                <img src="" alt="">
+                <div class="minfo">
+                    <p>name</p>
+                    <p>@handle</p>
+                    <p>bio</p>
+                </div>
+
+                <p class="joindate">
+                    Joined 5th may 2020
+
+                </p>
+
+            
+
+            </div>
+
+            <div class="interaction">
+                <div class="repos">
+                    <p>Repos</p>
+                    <p>0</p>
+                </div>
+
+                <div class="followers">
+                    <p>followers</p>
+                    <p>424</p>
+                </div>
+
+                <div class="following">
+                    <p>following</p>
+                    <p>140</p>
+                </div>
+
+            </div>
+
         </div>
 
 </div>
