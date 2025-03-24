@@ -240,6 +240,12 @@
   .bottom-\[4\] {
     bottom: 4;
   }
+  .bottom-\[5px\] {
+    bottom: 5px;
+  }
+  .bottom-\[6px\] {
+    bottom: 6px;
+  }
   .bottom-\[10px\] {
     bottom: 10px;
   }
@@ -254,6 +260,9 @@
   }
   .bottom-\[50px\] {
     bottom: 50px;
+  }
+  .bottom-\[58px\] {
+    bottom: 58px;
   }
   .bottom-\[60px\] {
     bottom: 60px;
@@ -309,8 +318,17 @@
   .bottom-\[400px\] {
     bottom: 400px;
   }
+  .bottom-\[450px\] {
+    bottom: 450px;
+  }
   .bottom-\[500px\] {
     bottom: 500px;
+  }
+  .bottom-\[520px\] {
+    bottom: 520px;
+  }
+  .bottom-\[540px\] {
+    bottom: 540px;
   }
   .bottom-\[550px\] {
     bottom: 550px;
@@ -320,6 +338,9 @@
   }
   .bottom-\[570px\] {
     bottom: 570px;
+  }
+  .bottom-\[580px\] {
+    bottom: 580px;
   }
   .bottom-\[590px\] {
     bottom: 590px;
@@ -339,14 +360,32 @@
   .bottom-\[700px\] {
     bottom: 700px;
   }
+  .bottom-\[740px\] {
+    bottom: 740px;
+  }
+  .bottom-\[750px\] {
+    bottom: 750px;
+  }
   .bottom-\[760px\] {
     bottom: 760px;
+  }
+  .bottom-\[800px\] {
+    bottom: 800px;
   }
   .bottom-\[1600px\] {
     bottom: 1600px;
   }
+  .bottom-\[2000px\] {
+    bottom: 2000px;
+  }
+  .bottom-\[5400px\] {
+    bottom: 5400px;
+  }
   .bottom-\[6100px\] {
     bottom: 6100px;
+  }
+  .bottom-\[px\] {
+    bottom: px;
   }
   .left-5 {
     left: calc(var(--spacing) * 5);
@@ -1087,6 +1126,9 @@
   .gap-\[10\] {
     gap: 10;
   }
+  .gap-\[10px\] {
+    gap: 10px;
+  }
   .gap-\[20\] {
     gap: 20;
   }
@@ -1096,11 +1138,17 @@
   .gap-\[20px\] {
     gap: 20px;
   }
+  .gap-\[40px\] {
+    gap: 40px;
+  }
   .gap-\[50px\] {
     gap: 50px;
   }
   .gap-\[70px\] {
     gap: 70px;
+  }
+  .gap-\[90px\] {
+    gap: 90px;
   }
   .gap-\[100\] {
     gap: 100;
@@ -1110,6 +1158,12 @@
   }
   .gap-\[100px\] {
     gap: 100px;
+  }
+  .gap-\[200\] {
+    gap: 200;
+  }
+  .gap-\[200p\] {
+    gap: 200p;
   }
   .gap-\[200px\] {
     gap: 200px;
@@ -1551,8 +1605,14 @@
   .pt-\[1800px\] {
     padding-top: 1800px;
   }
+  .pr-\[00px\] {
+    padding-right: 00px;
+  }
   .pr-\[400px\] {
     padding-right: 400px;
+  }
+  .pr-\[500px\] {
+    padding-right: 500px;
   }
   .pb-1 {
     padding-bottom: calc(var(--spacing) * 1);
