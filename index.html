@@ -13,16 +13,16 @@
 
  
 </head>
-<body class="">
+<body >
 <div class="wrapper m-0 p-0 box-border relative">
 
     <!--Header and dark mode-->
-    <div class="header flex justify-center items-baseline h-screen w-screen pt-[250px]">
-        <div class="heading pr-[500px] text-2xl font-bold text-[#5b748d]">
+    <div class="header flex flex-row justify-center h-screen w-screen pt-[180px]">
+        <div class="heading pr-[400px] text-3xl font-bold text-[#5b748d]">
             DevDetective
             
         </div>
-        <div class="mode flex flex-row items-center gap-6 text-[#5b748d] font-bold text-[20px]">
+        <div class="mode flex flex-row gap-6 text-[#5b748d] font-bold text-[20px]">
             <p Mode>DARK</p>
             <i class="fa-solid fa-moon"></i>
         </div>
@@ -36,7 +36,7 @@
         <div class="search flex justify-center">
             
             
-            <form action="#" class="absolute bottom-[710px] ">
+            <form action="#" class="absolute bottom-[640px]">
                 
                 <button>
                     <i class="fa fa-search"></i>
@@ -55,33 +55,40 @@
         </div>
 
         <!--developer info-->
-        <div class="devinfo flex justify-center">
-            <div class="pinfo flex flex-row items-center gap-6">
-                <img src="" alt="">
-                <div class="minfo">
-                    <p>name</p>
-                    <p>@handle</p>
-                    <p>bio</p>
-                </div>
-
-                <p class="joindate">
-                    Joined 5th may 2020
-
-                </p>
-
-            
-
+  <div class="devinfo flex flex-row gap-4 absolute bottom-[150px] left-[50%] translate-x-[-50%]">
+            <div class="pfp">
+                <img src="newpfp.jpg" alt="" width="200px" height="200px" class="rounded-full">
             </div>
+        <div class="info">
+                <div class="namedate flex flex-row items-center gap-[100px]">
+                    <p class="name font-bold text-2xl pb-[5px]">
+                        Tyler Blevins
 
-            <div class="interaction">
-                <div class="repos">
-                    <p>Repos</p>
-                    <p>0</p>
+                    </p>
+                    <p class="joiningdate font-semibold">
+                        Joined on 05 may 2020
+                    </p>
                 </div>
 
-                <div class="followers">
+                <div class="handle text-blue-700 underline pb-[30px]">      
+                    @TylerBlevins
+                </div>
+
+                <div class="bio w-[300px] pb-[90px]">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+
+                </div>
+
+            <div class="flex gap-[50px]">
+                
+                <div class="following">
+                    <p>Repos</p>
+                    <p>140</p>
+                </div>
+
+                <div class="following">
                     <p>followers</p>
-                    <p>424</p>
+                    <p>140</p>
                 </div>
 
                 <div class="following">
@@ -91,7 +98,33 @@
 
             </div>
 
+            <div class="socials grid grid-cols-2 gap-4 pt-[50px]">
+                <a href="">
+                    Location
+                </a>
+
+                <a href="">website</a>
+                
+                
+                <a href="">
+                    twitter
+                </a>
+
+                <a href="">
+                    blah
+                </a>
+
+
+
+            </div>
+
+
+            
         </div>
+
+                
+   </div>
+      
 
 </div>
     
