@@ -14,17 +14,17 @@
  
 </head>
 <body >
-<div class="wrapper m-0 p-0 box-border relative">
+<div class="wrapper m-0 p-0 box-border relative bg-[#f6f8ff]">
 
     <!--Header and dark mode-->
-    <div class="header flex flex-row justify-center h-screen w-screen pt-[180px]">
-        <div class="heading pr-[400px] text-3xl font-bold text-[#5b748d]">
+    <div class="header flex flex-row justify-center h-screen w-screen pt-[160px] relative">
+        <div class="heading pr-[541px] text-[26px] font-bold text-[#4b6a9b]">
             DevDetective
             
         </div>
-        <div class="mode flex flex-row gap-6 text-[#5b748d] font-bold text-[20px]">
-            <p Mode>DARK</p>
-            <i class="fa-solid fa-moon"></i>
+        <div class="mode flex flex-row gap-6 text-[#4b6a9b] font-bold text-[13px] items-baseline absolute right-[29.5%] top-[18%]">
+            <p Mode class="tracking-[2.5px] ">DARK</p>
+            <i class="fa-solid fa-moon fa-rotate-by text-2xl" style="--fa-rotate-angle: -30deg;"></i>
         </div>
 
   
@@ -33,19 +33,19 @@
     </div>
       <!--searchbox-->
     
-        <div class="search flex justify-center">
+        <div class="flex justify-center">
             
             
-            <form action="#" class="absolute bottom-[640px]">
+            <form action="#" class="absolute bottom-[640px] shadow-lg bg-white rounded-[20px] flex flex-row gap-4 p-3 py-2 px-5">
                 
                 <button>
-                    <i class="fa fa-search"></i>
+                    <i class="fa fa-magnifying-glass text-[#0079ff] text-xl"></i>
                 </button>
             
         
                 <input type="text" placeholder="Enter a Github Username..."
-                       name="search" size="50" >
-                <button class="pl-[80px]">
+                       name="search" size="50" class="outline-none bg-transparent px-3 text-md tracking-wide text-[#4b6a9b] " >
+                <button class=" bg-[#0079ff] rounded-[16px] text-white text-lg flex justify-center items-center px-6 h-[50px]">
                     Search
                 </button>
 
@@ -57,7 +57,7 @@
         <!--developer info-->
   <div class="devinfo flex flex-row gap-4 absolute bottom-[150px] left-[50%] translate-x-[-50%]">
             <div class="pfp">
-                <img src="newpfp.jpg" alt="" width="200px" height="200px" class="rounded-full">
+                <img src="newpfp.jpg" alt="" width="117px" height="117px" class="rounded-full">
             </div>
         <div class="info">
                 <div class="namedate flex flex-row items-center gap-[100px]">
@@ -65,8 +65,8 @@
                         Tyler Blevins
 
                     </p>
-                    <p class="joiningdate font-semibold">
-                        Joined on 05 may 2020
+                    <p class="joiningdate font-extralight text-[15px] text-[#4b6a9b]">
+                        Joined 05 may 2020
                     </p>
                 </div>
 
