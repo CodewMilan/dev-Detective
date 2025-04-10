@@ -231,11 +231,23 @@
   .top-\[18\%\] {
     top: 18%;
   }
+  .right-0 {
+    right: calc(var(--spacing) * 0);
+  }
   .right-1 {
     right: calc(var(--spacing) * 1);
   }
+  .right-\[5\] {
+    right: 5;
+  }
   .right-\[29\.5\%\] {
     right: 29.5%;
+  }
+  .right-\[50\%\] {
+    right: 50%;
+  }
+  .right-\[50\] {
+    right: 50;
   }
   .right-\[50px\] {
     right: 50px;
@@ -640,8 +652,52 @@
     --tw-translate-y: 100%;
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
+  .translate-x-\[-\%\] {
+    --tw-translate-x: -%;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-x-\[-0\%\] {
+    --tw-translate-x: -0%;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-x-\[-1\%\] {
+    --tw-translate-x: -1%;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-x-\[-2\%\] {
+    --tw-translate-x: -2%;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-x-\[-4\%\] {
+    --tw-translate-x: -4%;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-x-\[-5\%\] {
+    --tw-translate-x: -5%;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-x-\[-10\%\] {
+    --tw-translate-x: -10%;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-x-\[-20\%\] {
+    --tw-translate-x: -20%;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-x-\[-30\%\] {
+    --tw-translate-x: -30%;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-x-\[-40\%\] {
+    --tw-translate-x: -40%;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
   .translate-x-\[-50\%\] {
     --tw-translate-x: -50%;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-x-\[-330\%\] {
+    --tw-translate-x: -330%;
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .translate-3d {
@@ -1394,6 +1450,9 @@
   .p-5 {
     padding: calc(var(--spacing) * 5);
   }
+  .p-52 {
+    padding: calc(var(--spacing) * 52);
+  }
   .px-1 {
     padding-inline: calc(var(--spacing) * 1);
   }
@@ -1507,6 +1566,9 @@
   }
   .pb-\[5px\] {
     padding-bottom: 5px;
+  }
+  .pb-\[20px\] {
+    padding-bottom: 20px;
   }
   .pb-\[30px\] {
     padding-bottom: 30px;
@@ -1892,6 +1954,9 @@
   }
   .scheme-only-light {
     color-scheme: only light;
+  }
+  .opacity-50 {
+    opacity: 50%;
   }
   .mix-blend-plus-darker {
     mix-blend-mode: plus-darker;

@@ -64,7 +64,28 @@ function updateUserInfo(data) {
     following.innerText = data.following;
   
     locationEl.innerText = data.location || "Not available";
-    blog.innerText = data.blog || "Not available";
+    const blogLink = document.getElementById("blog");
+
+if (blogLink) {
+  let blog = data.blog?.trim();
+
+  if (blog) {
+    if (!/^https?:\/\//i.test(blog)) {
+      blog = "https://" + blog;
+    }
+
+    blogLink.href = blog;
+    blogLink.textContent = data.blog;
+    blogLink.target = "_blank";
+    blogLink.rel = "noopener noreferrer";
+    blogLink.classList.remove("opacity-50", "pointer-events-none");
+  } else {
+    blogLink.href = "#";
+    blogLink.textContent = "Not Available";
+    blogLink.classList.add("opacity-50", "pointer-events-none");
+  }
+}
+
     twitter.innerText = data.twitter_username || "Not available";
   
     userInfo.classList.remove("hidden");
