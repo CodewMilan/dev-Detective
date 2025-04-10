@@ -16,6 +16,7 @@ const blog = document.getElementById("blog");
 const twitter = document.getElementById("twitter");
 
 const userInfo = document.getElementById("userInfo");
+const searchForm = document.querySelector("form");
 
 
 searchBtn.addEventListener("click", () => {
@@ -68,4 +69,36 @@ function updateUserInfo(data) {
   
     userInfo.classList.remove("hidden");
   }
+  searchInput.addEventListener("keypress", (e) => {
+    if (e.key === "Enter") {
+      searchBtn.click();
+    }
+  });
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  document.addEventListener("DOMContentLoaded", () => {
+    fetchGitHubUser("codewmilan");
+  });
+  
+  searchForm.addEventListener("submit", (e) => {
+    e.preventDefault(); // 🔴 Prevent form from reloading the page
+    const username = searchInput.value.trim();
+  if (username !== "") {
+    fetchGitHubUser(username);
+  }
+});
