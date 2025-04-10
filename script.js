@@ -24,3 +24,23 @@ searchBtn.addEventListener("click", () => {
       fetchGitHubUser(username);
     }
   });
+
+async function fetchGitHubUser(username) {
+    const url = `https://api.github.com/users/${username}`;
+    
+    try{
+        const res = await fetch(url);
+        const data = await res.json();
+        
+        if(res.status === 404) {
+            alert("User not found. Please try again.");
+            userInfo.classList.add("hidden");
+            return
+        }
+        updateUserInfo(data);
+    }catch (error) {
+        console.error("Error fetching user data:", error);
+        alert("An error occurred while fetching user data. Please try again.");
+    }
+    
+}
