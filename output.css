@@ -234,21 +234,6 @@
   .right-\[29\.5\%\] {
     right: 29.5%;
   }
-  .bottom-\[10px\] {
-    bottom: 10px;
-  }
-  .bottom-\[120px\] {
-    bottom: 120px;
-  }
-  .bottom-\[140px\] {
-    bottom: 140px;
-  }
-  .bottom-\[150px\] {
-    bottom: 150px;
-  }
-  .bottom-\[160px\] {
-    bottom: 160px;
-  }
   .bottom-\[170px\] {
     bottom: 170px;
   }
@@ -468,14 +453,53 @@
   .h-screen {
     height: 100vh;
   }
+  .max-h-\[40px\] {
+    max-height: 40px;
+  }
+  .max-h-\[400px\] {
+    max-height: 400px;
+  }
+  .max-h-\[450px\] {
+    max-height: 450px;
+  }
   .max-h-none {
     max-height: none;
   }
   .max-h-screen {
     max-height: 100vh;
   }
+  .min-h-\[00px\] {
+    min-height: 00px;
+  }
+  .min-h-\[40px\] {
+    min-height: 40px;
+  }
+  .min-h-\[300px\] {
+    min-height: 300px;
+  }
+  .min-h-\[400px\] {
+    min-height: 400px;
+  }
+  .min-h-\[420px\] {
+    min-height: 420px;
+  }
+  .min-h-\[430px\] {
+    min-height: 430px;
+  }
+  .min-h-\[450px\] {
+    min-height: 450px;
+  }
+  .min-h-\[500px\] {
+    min-height: 500px;
+  }
+  .min-h-\[600px\] {
+    min-height: 600px;
+  }
   .min-h-screen {
     min-height: 100vh;
+  }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
@@ -989,6 +1013,9 @@
     text-overflow: ellipsis;
     white-space: nowrap;
   }
+  .overflow-hidden {
+    overflow: hidden;
+  }
   .scroll-auto {
     scroll-behavior: auto;
   }
@@ -1344,6 +1371,15 @@
   .py-\[50px\] {
     padding-block: 50px;
   }
+  .pt-\[0px\] {
+    padding-top: 0px;
+  }
+  .pt-\[30px\] {
+    padding-top: 30px;
+  }
+  .pt-\[40px\] {
+    padding-top: 40px;
+  }
   .pt-\[50px\] {
     padding-top: 50px;
   }
@@ -1356,14 +1392,41 @@
   .pr-\[541px\] {
     padding-right: 541px;
   }
+  .pb-\[0px\] {
+    padding-bottom: 0px;
+  }
+  .pb-\[1px\] {
+    padding-bottom: 1px;
+  }
+  .pb-\[2px\] {
+    padding-bottom: 2px;
+  }
   .pb-\[5px\] {
     padding-bottom: 5px;
+  }
+  .pb-\[10px\] {
+    padding-bottom: 10px;
+  }
+  .pb-\[15px\] {
+    padding-bottom: 15px;
+  }
+  .pb-\[20ppx\] {
+    padding-bottom: 20ppx;
   }
   .pb-\[20px\] {
     padding-bottom: 20px;
   }
+  .pb-\[20pxpx\] {
+    padding-bottom: 20pxpx;
+  }
   .pb-\[30px\] {
     padding-bottom: 30px;
+  }
+  .pb-\[150px\] {
+    padding-bottom: 150px;
+  }
+  .pb-\[px\] {
+    padding-bottom: px;
   }
   .text-center {
     text-align: center;

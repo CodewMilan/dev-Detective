@@ -86,7 +86,24 @@ if (blogLink) {
   }
 }
 
-    twitter.innerText = data.twitter_username || "Not available";
+const twitterLink = document.getElementById("twitter");
+
+if (twitterLink) {
+  let twitterUsername = data.twitter_username?.trim();
+
+  if (twitterUsername) {
+    const twitterURL = `https://twitter.com/${twitterUsername}`;
+    twitterLink.href = twitterURL;
+    twitterLink.textContent = `@${twitterUsername}`;
+    twitterLink.target = "_blank";
+    twitterLink.rel = "noopener noreferrer";
+    twitterLink.classList.remove("opacity-50", "pointer-events-none");
+  } else {
+    twitterLink.href = "#";
+    twitterLink.textContent = "Not Available";
+    twitterLink.classList.add("opacity-50", "pointer-events-none");
+  }
+}
   
     userInfo.classList.remove("hidden");
   }
