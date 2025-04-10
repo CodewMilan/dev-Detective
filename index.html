@@ -43,9 +43,8 @@
                 </button>
             
         
-                <input type="text" placeholder="Enter a Github Username..."
-                       name="search" size="50" class="outline-none bg-transparent px-3 text-md tracking-wide text-[#4b6a9b] " >
-                <button class=" bg-[#0079ff] rounded-[16px] text-white text-lg flex justify-center items-center px-6 h-[50px]">
+                <input type="text" placeholder="Enter a Github Username..." name="search" size="50" class="outline-none bg-transparent px-3 text-md tracking-wide text-[#4b6a9b] " id="searchInput" >
+                <button class=" bg-[#0079ff] rounded-[16px] text-white text-lg flex justify-center items-center px-6 h-[50px]" id="searchBtn" type="submit">
                     Search
                 </button>
 
@@ -56,25 +55,25 @@
 
         <!--developer info-->
   <div class="devinfo flex flex-row gap-4 absolute bottom-[150px] left-[50%] translate-x-[-50%]">
-            <div class="pfp">
+            <div class="pfp" id="avatar">
                 <img src="newpfp.jpg" alt="" width="117px" height="117px" class="rounded-full">
             </div>
         <div class="info">
                 <div class="namedate flex flex-row items-center gap-[100px]">
-                    <p class="name font-bold text-2xl pb-[5px]">
+                    <p class="name font-bold text-2xl pb-[5px]" id="name">
                         Tyler Blevins
 
                     </p>
-                    <p class="joiningdate font-extralight text-[15px] text-[#4b6a9b]">
+                    <p class="joiningdate font-extralight text-[15px] text-[#4b6a9b]" id="joinDate">
                         Joined 05 may 2020
                     </p>
                 </div>
 
-                <div class="handle text-blue-700 underline pb-[30px]">      
+                <div class="handle text-blue-700 underline pb-[30px]" id="Username">      
                     @TylerBlevins
                 </div>
 
-                <div class="bio w-[300px] pb-[90px]">
+                <div class="bio w-[300px] pb-[90px]" id="bio">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
 
                 </div>
@@ -83,34 +82,34 @@
                 
                 <div class="following">
                     <p>Repos</p>
-                    <p>140</p>
+                    <p id="repos">140</p>
                 </div>
 
                 <div class="following">
                     <p>followers</p>
-                    <p>140</p>
+                    <p id="followers">140</p>
                 </div>
 
                 <div class="following">
                     <p>following</p>
-                    <p>140</p>
+                    <p id="following">140</p>
                 </div>
 
             </div>
 
             <div class="socials grid grid-cols-2 gap-4 pt-[50px]">
-                <a href="">
+                <a href="" id="location">
                     Location
                 </a>
 
-                <a href="">website</a>
+                <a href="" id="blog">website</a>
                 
                 
-                <a href="">
+                <a href="" id="twitter">
                     twitter
                 </a>
 
-                <a href="">
+                <a href="" id="userInfo">
                     blah
                 </a>
 
