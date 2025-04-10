@@ -44,3 +44,28 @@ async function fetchGitHubUser(username) {
     }
     
 }
+function updateUserInfo(data) {
+    avatar.src = data.avatar_url;
+    name.innerText = data.name || "No Name";
+    username.innerText = `@${data.login}`;
+    
+    const date = new Date(data.created_at);
+    joinDate.innerText = `Joined ${date.toLocaleDateString("en-US", {
+      day: "numeric",
+      month: "short",
+      year: "numeric",
+    })}`;
+  
+    bio.innerText = data.bio || "No bio available.";
+  
+    repos.innerText = data.public_repos;
+    followers.innerText = data.followers;
+    following.innerText = data.following;
+  
+    locationEl.innerText = data.location || "Not available";
+    blog.innerText = data.blog || "Not available";
+    twitter.innerText = data.twitter_username || "Not available";
+  
+    userInfo.classList.remove("hidden");
+  }
+  
